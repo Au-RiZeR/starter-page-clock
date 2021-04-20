@@ -1,0 +1,124 @@
+body {
+    background-color: black;
+}
+
+main {
+    display: flex;
+}
+
+.number {
+    margin: 50px;
+}
+
+.top {
+    left: 15px;
+    width: 200px;
+    height: 20px;
+    border-radius: 1px;
+
+    position:relative;
+    overflow:hidden;
+    /* background: #522d5b; */
+    clip-path: polygon(
+        5% 0%, 95% 0%, 100% 50%, 95% 100%, 5% 100%, 0 50%
+    )
+}
+
+.left-top {
+    top: -5px;
+    left: 0px;
+    width: 20px;
+    height: 200px;
+    border-radius: 1px;
+
+    position:relative;
+    overflow:hidden;
+    /* background: #522d5b; */
+    clip-path: polygon(
+        0% 5%, 50% 0%, 100% 5%, 100% 95%, 50% 100%, 0% 95%
+    )
+}
+
+.right-top {
+    top: -205px;
+    left: 210px;
+    width: 20px;
+    height: 200px;
+    border-radius: 1px;
+
+    position:relative;
+    overflow:hidden;
+    /* background: #522d5b; */
+    clip-path: polygon(
+        0% 5%, 50% 0%, 100% 5%, 100% 95%, 50% 100%, 0% 95%
+    )
+}
+
+.centre {
+    top: -210px;
+    left: 15px;
+    width: 200px;
+    height: 20px;
+    border-radius: 1px;
+
+    position:relative;
+    overflow:hidden;
+    /* background: #522d5b; */
+    clip-path: polygon(
+        5% 0%, 95% 0%, 100% 50%, 95% 100%, 5% 100%, 0 50%
+    )
+}
+
+.left-bottom {
+    top: -215px;
+    left: 0px;
+    width: 20px;
+    height: 200px;
+    border-radius: 1px;
+
+    position:relative;
+    overflow:hidden;
+    /* background: #522d5b; */
+    clip-path: polygon(
+        0% 5%, 50% 0%, 100% 5%, 100% 95%, 50% 100%, 0% 95%
+    )
+}
+
+.right-bottom {
+    top: -415px;
+    left: 210px;
+    width: 20px;
+    height: 200px;
+    border-radius: 1px;
+
+    position:relative;
+    overflow:hidden;
+    /* background: #522d5b; */
+    clip-path: polygon(
+        0% 5%, 50% 0%, 100% 5%, 100% 95%, 50% 100%, 0% 95%
+    )
+}
+
+.bottom {
+    top: -420px;
+    left: 15px;
+    width: 200px;
+    height: 20px;
+    border-radius: 1px;
+
+    position:relative;
+    overflow:hidden;
+    /* background: #522d5b; */
+    clip-path: polygon(
+        5% 0%, 95% 0%, 100% 50%, 95% 100%, 5% 100%, 0 50%
+    )
+}
+
+
+
+.unlit {
+    background-color: grey;
+}
+.lit {
+    background-color: red;
+}
