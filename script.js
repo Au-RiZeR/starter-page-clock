@@ -2,27 +2,27 @@ $(document).ready(function () {
     for (var ic = 0; ic < 10; ic++) {
         setTimeout(() => {
             for (let i = 1; i < 5; i++) {
-                resetter(i)
-                eval(`n${Math.floor(Math.random()*10)}(${i})`)
-            } 
-        }, 100*ic);  
+                resetter(i);
+                eval(`n${Math.floor(Math.random()*10)}(${i})`);
+            }
+        }, 100*ic);
     }
-    var flicker = 1
+    var flicker = 1;
     setInterval(() => {
-        var hour = moment().format('HH')
-        var minute = moment().format('mm')
-        var first = hour.split('')[0]
-        var second = hour.split('')[1]
-        var third = minute.split('')[0]
-        var forth = minute.split('')[1]
+        var hour = moment().format('HH');
+        var minute = moment().format('mm');
+        var first = hour.split('')[0];
+        var second = hour.split('')[1];
+        var third = minute.split('')[0];
+        var forth = minute.split('')[1];
         for (let i = 1; i < 5; i++) {
-            resetter(i)
+            resetter(i);
         }
-        eval(`n${first}(1)`)
-        eval(`n${second}(2)`)
-        eval(`n${third}(3)`)
-        eval(`n${forth}(4)`)
-        flash()
+        eval(`n${first}(1)`);
+        eval(`n${second}(2)`);
+        eval(`n${third}(3)`);
+        eval(`n${forth}(4)`);
+        flash();
     }, 1000);
     function flash() {
         for (let i = 1; i < 3; i++) {
@@ -32,7 +32,7 @@ $(document).ready(function () {
                 $(element).attr('class', existingClasses + ' lit');
             } else {
                 let newClasses = existingClasses.replace(' lit', '');
-                $(element).attr('class', newClasses)
+                $(element).attr('class', newClasses);
             }
         }
         if (flicker == 1) {
