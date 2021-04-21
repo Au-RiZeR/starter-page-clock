@@ -3,13 +3,14 @@ body {
 }
 main {
     display: flex;
+    width: 100vw;
 }
 .number {
-    margin: 50px;
+    margin: 2vw;
 }
 .top {
-    width: 200px;
-    height: 20px;
+    width: 20vw;
+    height: 2vw;
     border-radius: 1px;
     position:relative;
     overflow:hidden;
@@ -18,10 +19,10 @@ main {
     )
 }
 .left-top {
-    top: -5px;
-    left: -15px;
-    width: 20px;
-    height: 200px;
+    top: -0.5vw;
+    left: -1.5vw;
+    width: 2vw;
+    height: 20vw;
     border-radius: 1px;
     position:relative;
     overflow:hidden;
@@ -30,10 +31,10 @@ main {
     )
 }
 .right-top {
-    top: -205px;
-    left: 195px;
-    width: 20px;
-    height: 200px;
+    top: -20.5vw;
+    left: 19.5vw;
+    width: 2vw;
+    height: 20vw;
     border-radius: 1px;
     position:relative;
     overflow:hidden;
@@ -42,9 +43,9 @@ main {
     )
 }
 .centre {
-    top: -210px;
-    width: 200px;
-    height: 20px;
+    top: -21vw;
+    width: 20vw;
+    height: 2vw;
     border-radius: 1px;
     position:relative;
     overflow:hidden;
@@ -53,10 +54,10 @@ main {
     )
 }
 .left-bottom {
-    top: -215px;
-    left: -15px;
-    width: 20px;
-    height: 200px;
+    top: -21.5vw;
+    left: -1.5vw;
+    width: 2vw;
+    height: 20vw;
     border-radius: 1px;
     position:relative;
     overflow:hidden;
@@ -65,10 +66,10 @@ main {
     )
 }
 .right-bottom {
-    top: -415px;
-    left: 195px;
-    width: 20px;
-    height: 200px;
+    top: -41.5vw;
+    left: 19.5vw;
+    width: 2vw;
+    height: 20vw;
     border-radius: 1px;
     position:relative;
     overflow:hidden;
@@ -77,9 +78,9 @@ main {
     )
 }
 .bottom {
-    top: -420px;
-    width: 200px;
-    height: 20px;
+    top: -42vw;
+    width: 20vw;
+    height: 2vw;
     border-radius: 1px;
     position:relative;
     overflow:hidden;
@@ -88,9 +89,9 @@ main {
     )
 }
 #d1 {
-    top: 15px;
-    width: 20px;
-    height: 200px;
+    top: 1.5vw;
+    width: 2vw;
+    height: 20vw;
     border-radius: 1px;
     position:relative;
     overflow:hidden;
@@ -99,12 +100,12 @@ main {
     )
 }
 #divider{
-    margin: 50px;
+    margin: 2vw;
 }
 #d2 {
-    top: 25px;
-    width: 20px;
-    height: 200px;
+    top: 2.5vw;
+    width: 2vw;
+    height: 20vw;
     border-radius: 1px;
     position:relative;
     overflow:hidden;
