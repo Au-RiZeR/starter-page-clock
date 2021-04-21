@@ -19,11 +19,8 @@ $(document).ready(function () {
         for (let i = 0; i < 7; i++) {
             let element = $(`#number${placement} > div`)[i];
             let existingClasses = $(element).attr('class');
-            // console.log(existingClasses)
             let newClasses = existingClasses.replace(' lit', '');
-
             $(element).attr('class', newClasses)
-
         }
     }
     function n0(placement) {
@@ -104,8 +101,6 @@ $(document).ready(function () {
         }
     }
     function n8(placement) {
-        // $(`#number${placement} > div`).attr('class', 'lit')
-        // console.log($(`#number${placement} > div`)[0])
         for (let i = 0; i < 7; i++) {
             let element = $(`#number${placement} > div`)[i];
             let existingClasses = $(element).attr('class');
@@ -113,8 +108,6 @@ $(document).ready(function () {
         }
     }
     function n9(placement) {
-        // $(`#number${placement} > div`).attr('class', 'lit')
-        // console.log($(`#number${placement} > div`)[0])
         for (let i = 0; i < 7; i++) {
             if (i == 4) {
                 i++
