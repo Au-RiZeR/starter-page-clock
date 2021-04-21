@@ -113,7 +113,7 @@ main {
     )
 }
 .unlit {
-    background-color: rgba(100, 100, 100, 0.3);
+    background-image: radial-gradient( rgba(100,100,100,0.5),rgba(100,100,100,0.05));
 }
 .lit {
     background-image: radial-gradient(rgba(255,0,0,1), rgba(255,0,0,0.5));
