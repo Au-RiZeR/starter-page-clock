@@ -1,15 +1,19 @@
 $(document).ready(function () {
     setInterval(() => {
-        var hour = moment().format('H')
-        var minute = moment().format('m')
+        var hour = moment().format('HH')
+        var minute = moment().format('mm')
         var first = hour.split('')[0]
         var second = hour.split('')[1]
         var third = minute.split('')[0]
         var forth = minute.split('')[1]
-        // console.log(first)
-        // console.log(second)
-        // console.log(third)
-        // console.log(forth)
+        for (let i = 1; i < 5; i++) {
+            resetter(i)
+        }
+        eval(`n${first}(1)`)
+        eval(`n${second}(2)`)
+        eval(`n${third}(3)`)
+        eval(`n${forth}(4)`)
+
     }, 1000);
     var flip = 1
     function resetter(placement) {
@@ -18,44 +22,122 @@ $(document).ready(function () {
             let existingClasses = $(element).attr('class');
             // console.log(existingClasses)
             let newClasses = existingClasses.replace(' lit', '');
-            
+
             $(element).attr('class', newClasses)
-            
+
         }
     }
 
-function seizure1() {
-    document.body.style.backgroundColor = 'white'
-    flip++
-}
 
-function seizure2() {  
-    document.body.style.backgroundColor = 'black'
-    flip--
-}
 
-setInterval(() => {
-    n8(1)
-    n8(2)
-    n8(3)
-    n8(4)
-    eval(    `seizure${flip}()`    )
-}, 100);
+
+    function n0(placement) {
+        for (let i = 0; i < 7; i++) {
+            if (i==3) {
+                i++
+            }
+            let element = $(`#number${placement} > div`)[i];
+            let existingClasses = $(element).attr('class');
+            $(element).attr('class', existingClasses + ' lit');
+
+        }
+    }
+    function n1(placement) {
+        for (let i = 2; i < 7; i += 3) {
+            let element = $(`#number${placement} > div`)[i];
+            let existingClasses = $(element).attr('class');
+            $(element).attr('class', existingClasses + ' lit');
+
+        }
+    }
+    function n2(placement) {
+        for (let i = 0; i < 7; i ++) {
+            if (i==1 || i==5) {
+                i++
+            }
+            let element = $(`#number${placement} > div`)[i];
+            let existingClasses = $(element).attr('class');
+            $(element).attr('class', existingClasses + ' lit');
+
+        }
+    }
+    function n3(placement) {
+        for (let i = 0; i < 7; i ++) {
+            if (i==1 || i==4) {
+                i++
+            }
+            let element = $(`#number${placement} > div`)[i];
+            let existingClasses = $(element).attr('class');
+            $(element).attr('class', existingClasses + ' lit');
+
+        }
+    }
+    function n4(placement) {
+        for (let i = 1; i < 7; i ++) {
+            if (i==4 || i==6) {
+                i++
+            }
+            let element = $(`#number${placement} > div`)[i];
+            let existingClasses = $(element).attr('class');
+            $(element).attr('class', existingClasses + ' lit');
+
+        }
+    }
+    function n5(placement) {
+        for (let i = 0; i < 7; i ++) {
+            if (i==2 || i==4) {
+                i++
+            }
+            let element = $(`#number${placement} > div`)[i];
+            let existingClasses = $(element).attr('class');
+            $(element).attr('class', existingClasses + ' lit');
+
+        }
+    }
+    function n6(placement) {
+        for (let i = 0; i < 7; i ++) {
+            if (i==2) {
+                i++
+            }
+            let element = $(`#number${placement} > div`)[i];
+            let existingClasses = $(element).attr('class');
+            $(element).attr('class', existingClasses + ' lit');
+
+        }
+    }
+    function n7(placement) {
+        for (let i = 0; i < 7; i +=2) {
+            if (i==4) {
+                i++
+            }
+            let element = $(`#number${placement} > div`)[i];
+            let existingClasses = $(element).attr('class');
+            $(element).attr('class', existingClasses + ' lit');
+
+        }
+    }
     function n8(placement) {
         // $(`#number${placement} > div`).attr('class', 'lit')
         // console.log($(`#number${placement} > div`)[0])
-            for (let i = 0; i < 7; i++) {
-                let element = $(`#number${placement} > div`)[i];
-                let existingClasses = $(element).attr('class');
-                $(element).attr('class', existingClasses + ' lit');
+        for (let i = 0; i < 7; i++) {
+            let element = $(`#number${placement} > div`)[i];
+            let existingClasses = $(element).attr('class');
+            $(element).attr('class', existingClasses + ' lit');
 
+        }
+    }
+    function n9(placement) {
+        // $(`#number${placement} > div`).attr('class', 'lit')
+        // console.log($(`#number${placement} > div`)[0])
+        for (let i = 0; i < 7; i++) {
+            if (i==4) {
+                i++
             }
-            setTimeout(() => {
-                resetter(placement)
-                // console.log($(`#number${placement} > div`)[i])
-            }, 50);
-        
+            let element = $(`#number${placement} > div`)[i];
+            let existingClasses = $(element).attr('class');
+            $(element).attr('class', existingClasses + ' lit');
 
+        }
     }
 
 
