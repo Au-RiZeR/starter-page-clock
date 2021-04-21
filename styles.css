@@ -1,15 +1,12 @@
 body {
     background-color: black;
 }
-
 main {
     display: flex;
 }
-
 .number {
     margin: 50px;
 }
-
 .top {
     width: 200px;
     height: 20px;
@@ -20,7 +17,6 @@ main {
         5% 0%, 95% 0%, 100% 50%, 95% 100%, 5% 100%, 0 50%
     )
 }
-
 .left-top {
     top: -5px;
     left: -15px;
@@ -33,7 +29,6 @@ main {
         0% 5%, 50% 0%, 100% 5%, 100% 95%, 50% 100%, 0% 95%
     )
 }
-
 .right-top {
     top: -205px;
     left: 195px;
@@ -46,7 +41,6 @@ main {
         0% 5%, 50% 0%, 100% 5%, 100% 95%, 50% 100%, 0% 95%
     )
 }
-
 .centre {
     top: -210px;
     width: 200px;
@@ -58,7 +52,6 @@ main {
         5% 0%, 95% 0%, 100% 50%, 95% 100%, 5% 100%, 0 50%
     )
 }
-
 .left-bottom {
     top: -215px;
     left: -15px;
@@ -71,7 +64,6 @@ main {
         0% 5%, 50% 0%, 100% 5%, 100% 95%, 50% 100%, 0% 95%
     )
 }
-
 .right-bottom {
     top: -415px;
     left: 195px;
@@ -84,7 +76,6 @@ main {
         0% 5%, 50% 0%, 100% 5%, 100% 95%, 50% 100%, 0% 95%
     )
 }
-
 .bottom {
     top: -420px;
     width: 200px;
@@ -96,8 +87,6 @@ main {
         5% 0%, 95% 0%, 100% 50%, 95% 100%, 5% 100%, 0 50%
     )
 }
-
-
 #d1 {
     top: 15px;
     width: 20px;
@@ -109,25 +98,20 @@ main {
         0% 5%, 50% 0%, 100% 5%, 100% 95%, 50% 100%, 0% 95%
     )
 }
-
 #divider{
     margin: 50px;
 }
-
 #d2 {
     top: 25px;
     width: 20px;
     height: 200px;
     border-radius: 1px;
-
     position:relative;
     overflow:hidden;
     clip-path: polygon(
         0% 5%, 50% 0%, 100% 5%, 100% 95%, 50% 100%, 0% 95%
     )
 }
-
-
 .unlit {
     background-color: rgba(100, 100, 100, 0.3);
 }
