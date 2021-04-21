@@ -15,7 +15,6 @@ $(document).ready(function () {
         eval(`n${forth}(4)`)
 
     }, 1000);
-    var flip = 1
     function resetter(placement) {
         for (let i = 0; i < 7; i++) {
             let element = $(`#number${placement} > div`)[i];
@@ -27,19 +26,14 @@ $(document).ready(function () {
 
         }
     }
-
-
-
-
     function n0(placement) {
         for (let i = 0; i < 7; i++) {
-            if (i==3) {
+            if (i == 3) {
                 i++
             }
             let element = $(`#number${placement} > div`)[i];
             let existingClasses = $(element).attr('class');
             $(element).attr('class', existingClasses + ' lit');
-
         }
     }
     function n1(placement) {
@@ -47,73 +41,66 @@ $(document).ready(function () {
             let element = $(`#number${placement} > div`)[i];
             let existingClasses = $(element).attr('class');
             $(element).attr('class', existingClasses + ' lit');
-
         }
     }
     function n2(placement) {
-        for (let i = 0; i < 7; i ++) {
-            if (i==1 || i==5) {
+        for (let i = 0; i < 7; i++) {
+            if (i == 1 || i == 5) {
                 i++
             }
             let element = $(`#number${placement} > div`)[i];
             let existingClasses = $(element).attr('class');
             $(element).attr('class', existingClasses + ' lit');
-
         }
     }
     function n3(placement) {
-        for (let i = 0; i < 7; i ++) {
-            if (i==1 || i==4) {
+        for (let i = 0; i < 7; i++) {
+            if (i == 1 || i == 4) {
                 i++
             }
             let element = $(`#number${placement} > div`)[i];
             let existingClasses = $(element).attr('class');
             $(element).attr('class', existingClasses + ' lit');
-
         }
     }
     function n4(placement) {
-        for (let i = 1; i < 7; i ++) {
-            if (i==4 || i==6) {
+        for (let i = 1; i < 7; i++) {
+            if (i == 4 || i == 6) {
                 i++
             }
             let element = $(`#number${placement} > div`)[i];
             let existingClasses = $(element).attr('class');
             $(element).attr('class', existingClasses + ' lit');
-
         }
     }
     function n5(placement) {
-        for (let i = 0; i < 7; i ++) {
-            if (i==2 || i==4) {
+        for (let i = 0; i < 7; i++) {
+            if (i == 2 || i == 4) {
                 i++
             }
             let element = $(`#number${placement} > div`)[i];
             let existingClasses = $(element).attr('class');
             $(element).attr('class', existingClasses + ' lit');
-
         }
     }
     function n6(placement) {
-        for (let i = 0; i < 7; i ++) {
-            if (i==2) {
+        for (let i = 0; i < 7; i++) {
+            if (i == 2) {
                 i++
             }
             let element = $(`#number${placement} > div`)[i];
             let existingClasses = $(element).attr('class');
             $(element).attr('class', existingClasses + ' lit');
-
         }
     }
     function n7(placement) {
-        for (let i = 0; i < 7; i +=2) {
-            if (i==4) {
+        for (let i = 0; i < 7; i += 2) {
+            if (i == 4) {
                 i++
             }
             let element = $(`#number${placement} > div`)[i];
             let existingClasses = $(element).attr('class');
             $(element).attr('class', existingClasses + ' lit');
-
         }
     }
     function n8(placement) {
@@ -123,22 +110,18 @@ $(document).ready(function () {
             let element = $(`#number${placement} > div`)[i];
             let existingClasses = $(element).attr('class');
             $(element).attr('class', existingClasses + ' lit');
-
         }
     }
     function n9(placement) {
         // $(`#number${placement} > div`).attr('class', 'lit')
         // console.log($(`#number${placement} > div`)[0])
         for (let i = 0; i < 7; i++) {
-            if (i==4) {
+            if (i == 4) {
                 i++
             }
             let element = $(`#number${placement} > div`)[i];
             let existingClasses = $(element).attr('class');
             $(element).attr('class', existingClasses + ' lit');
-
         }
     }
-
-
 });
