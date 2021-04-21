@@ -16,7 +16,6 @@ $(document).ready(function () {
         eval(`n${forth}(4)`)
         flash()
     }, 1000);
-
     function flash() {
         for (let i = 1; i < 3; i++) {
             const element = $(`#d${i}`);
@@ -30,12 +29,11 @@ $(document).ready(function () {
         }
         console.log(flicker)
         if (flicker == 1) {
-           flicker++ 
+            flicker++
         } else {
             flicker--
         }
     }
-
     function resetter(placement) {
         for (let i = 0; i < 7; i++) {
             let element = $(`#number${placement} > div`)[i];
