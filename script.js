@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    var flicker = 1
     setInterval(() => {
         var hour = moment().format('HH')
         var minute = moment().format('mm')
@@ -13,8 +14,28 @@ $(document).ready(function () {
         eval(`n${second}(2)`)
         eval(`n${third}(3)`)
         eval(`n${forth}(4)`)
-
+        flash()
     }, 1000);
+
+    function flash() {
+        for (let i = 1; i < 3; i++) {
+            const element = $(`#d${i}`);
+            let existingClasses = $(element).attr('class');
+            if (flicker == 1) {
+                $(element).attr('class', existingClasses + ' lit');
+            } else {
+                let newClasses = existingClasses.replace(' lit', '');
+                $(element).attr('class', newClasses)
+            }
+        }
+        console.log(flicker)
+        if (flicker == 1) {
+           flicker++ 
+        } else {
+            flicker--
+        }
+    }
+
     function resetter(placement) {
         for (let i = 0; i < 7; i++) {
             let element = $(`#number${placement} > div`)[i];
