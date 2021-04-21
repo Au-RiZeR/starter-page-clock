@@ -11,7 +11,7 @@ main {
 }
 
 .top {
-    left: 15px;
+    /* left: 15px; */
     width: 200px;
     height: 20px;
     border-radius: 1px;
@@ -26,7 +26,7 @@ main {
 
 .left-top {
     top: -5px;
-    left: 0px;
+    left: -15px;
     width: 20px;
     height: 200px;
     border-radius: 1px;
@@ -41,7 +41,7 @@ main {
 
 .right-top {
     top: -205px;
-    left: 210px;
+    left: 195px;
     width: 20px;
     height: 200px;
     border-radius: 1px;
@@ -56,7 +56,7 @@ main {
 
 .centre {
     top: -210px;
-    left: 15px;
+    left: 0px;
     width: 200px;
     height: 20px;
     border-radius: 1px;
@@ -71,7 +71,7 @@ main {
 
 .left-bottom {
     top: -215px;
-    left: 0px;
+    left: -15px;
     width: 20px;
     height: 200px;
     border-radius: 1px;
@@ -86,7 +86,7 @@ main {
 
 .right-bottom {
     top: -415px;
-    left: 210px;
+    left: 195px;
     width: 20px;
     height: 200px;
     border-radius: 1px;
@@ -101,7 +101,7 @@ main {
 
 .bottom {
     top: -420px;
-    left: 15px;
+    left: 0px;
     width: 200px;
     height: 20px;
     border-radius: 1px;
@@ -117,7 +117,7 @@ main {
 
 #d1 {
     top: 15px;
-    left: 15px;
+    left: 0px;
     width: 20px;
     height: 200px;
     border-radius: 1px;
@@ -136,7 +136,7 @@ main {
 
 #d2 {
     top: 25px;
-    left: 15px;
+    left: 0px;
     width: 20px;
     height: 200px;
     border-radius: 1px;
