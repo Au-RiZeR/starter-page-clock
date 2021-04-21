@@ -1,4 +1,12 @@
 $(document).ready(function () {
+    for (var ic = 0; ic < 10; ic++) {
+        setTimeout(() => {
+            for (let i = 1; i < 5; i++) {
+                resetter(i)
+                eval(`n${Math.floor(Math.random()*9 + 1)}(${i})`)
+            } 
+        }, 100*ic);  
+    }
     var flicker = 1
     setInterval(() => {
         var hour = moment().format('HH')
@@ -27,7 +35,6 @@ $(document).ready(function () {
                 $(element).attr('class', newClasses)
             }
         }
-        console.log(flicker)
         if (flicker == 1) {
             flicker++
         } else {
