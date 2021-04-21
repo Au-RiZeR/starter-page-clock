@@ -9,8 +9,8 @@ main {
     margin: 2vw;
 }
 .top {
-    width: 20vw;
-    height: 2vw;
+    width: 18vw;
+    height: 1.8vw;
     border-radius: 1px;
     position:relative;
     overflow:hidden;
@@ -19,10 +19,10 @@ main {
     )
 }
 .left-top {
-    top: -0.5vw;
-    left: -1.5vw;
-    width: 2vw;
-    height: 20vw;
+    top: -0.4vw;
+    left: -1.4vw;
+    width: 1.8vw;
+    height: 18vw;
     border-radius: 1px;
     position:relative;
     overflow:hidden;
@@ -31,10 +31,10 @@ main {
     )
 }
 .right-top {
-    top: -20.5vw;
-    left: 19.5vw;
-    width: 2vw;
-    height: 20vw;
+    top: -18.4vw;
+    left: 17.6vw;
+    width: 1.8vw;
+    height: 18vw;
     border-radius: 1px;
     position:relative;
     overflow:hidden;
@@ -43,9 +43,9 @@ main {
     )
 }
 .centre {
-    top: -21vw;
-    width: 20vw;
-    height: 2vw;
+    top: -18.8vw;
+    width: 18vw;
+    height: 1.8vw;
     border-radius: 1px;
     position:relative;
     overflow:hidden;
@@ -54,10 +54,10 @@ main {
     )
 }
 .left-bottom {
-    top: -21.5vw;
-    left: -1.5vw;
-    width: 2vw;
-    height: 20vw;
+    top: -19.2vw;
+    left: -1.4vw;
+    width: 1.8vw;
+    height: 18vw;
     border-radius: 1px;
     position:relative;
     overflow:hidden;
@@ -66,10 +66,10 @@ main {
     )
 }
 .right-bottom {
-    top: -41.5vw;
-    left: 19.5vw;
-    width: 2vw;
-    height: 20vw;
+    top: -37.2vw;
+    left: 17.6vw;
+    width: 1.8vw;
+    height: 18vw;
     border-radius: 1px;
     position:relative;
     overflow:hidden;
@@ -78,9 +78,9 @@ main {
     )
 }
 .bottom {
-    top: -42vw;
-    width: 20vw;
-    height: 2vw;
+    top: -37.6vw;
+    width: 18vw;
+    height: 1.8vw;
     border-radius: 1px;
     position:relative;
     overflow:hidden;
@@ -90,8 +90,8 @@ main {
 }
 #d1 {
     top: 1.5vw;
-    width: 2vw;
-    height: 20vw;
+    width: 1.8vw;
+    height: 18vw;
     border-radius: 1px;
     position:relative;
     overflow:hidden;
@@ -104,8 +104,8 @@ main {
 }
 #d2 {
     top: 2.5vw;
-    width: 2vw;
-    height: 20vw;
+    width: 1.8vw;
+    height: 18vw;
     border-radius: 1px;
     position:relative;
     overflow:hidden;
