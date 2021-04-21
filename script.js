@@ -3,7 +3,7 @@ $(document).ready(function () {
         setTimeout(() => {
             for (let i = 1; i < 5; i++) {
                 resetter(i)
-                eval(`n${Math.floor(Math.random()*9 + 1)}(${i})`)
+                eval(`n${Math.floor(Math.random()*10)}(${i})`)
             } 
         }, 100*ic);  
     }
